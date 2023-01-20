@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+}
+a {
+  text-decoration: none;
+  color: darkslategray;
+}
+ul {
+  list-style-type: none;
+}
+.loadpic {
+  padding: 3.5rem;
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    &:hover {
+      color: grey;
+      cursor: default;
+    }
+  }
+}
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./Pics";
+@import "./lovepho";

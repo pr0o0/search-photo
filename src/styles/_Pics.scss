@@ -1,0 +1,40 @@
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .pic {
+    padding: 0.8rem;
+    width: 400px;
+    .imgcontainer {
+      overflow: hidden;
+      height: 40vh;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.3s;
+      }
+      img:hover {
+        transform: scale(1.25);
+      }
+    }
+  }
+}
+.icon {
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  i {
+    color: orange;
+  }
+  i:hover {
+    cursor: pointer;
+  }
+}
+#o {
+  color: orange;
+}
+#x {
+  color: red;
+}

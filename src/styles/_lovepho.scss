@@ -1,0 +1,23 @@
+.pppp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  .ppp {
+    padding: 0.8rem;
+    width: 400px;
+    .imgcontainerppp {
+      overflow: hidden;
+      height: 40vh;
+      .imgppp {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.3s;
+      }
+      .imgppp:hover {
+        transform: scale(1.25);
+      }
+    }
+  }
+}
